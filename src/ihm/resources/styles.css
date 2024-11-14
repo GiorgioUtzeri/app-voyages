@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.root {
+    -fx-font-family: "Inter", sans-serif;
+}
+
+.titre-zone {
+    -fx-padding: 120px 320px 0 320px;
+}
+
+.titre {
+    -fx-background-color: #236BD7; 
+    -fx-border-radius: 20px;
+    -fx-padding: 92px;
+    -fx-text-fill: white;
+    -fx-font-size: 60px;
+    -fx-font-style: italic;
+    -fx-font-weight: 800; 
+}
+
+.prenom-zone {
+    -fx-spacing: 15px;
+}
+
+.text-field {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-text-inner-color: black;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-border-width: 2px;
+    -fx-font-weight: bold;
+}
+
+.history-button {
+    -fx-background-color: white;
+    -fx-border-color: #689F38;
+}
+
+.bold {
+    -fx-font-weight: bold; 
+}
+
+.blue-button {
+    -fx-background-color: #236BD7;
+    -fx-text-fill: white;
+    -fx-border-width: 0px;
+    -fx-border-radius: 0px;
+    -fx-border-color: #236BD7;
+}
+
+.chemin-zone {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+
+.grey {
+    -fx-text-fill: #8C8C8C;
+}
+
+.ville-box {
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+}
+
+.ville-entree {
+    -fx-border-width: 0px;
+    -fx-effect: none;
+    -fx-background-color: #DFDFDF;
+}
+
+.history-button-active {
+    -fx-background-color: #689F38;
+    -fx-text-fill: white;
+}
+
+.combo-zone {
+    -fx-background-color: #689F38;
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+}
+
+.result-announce {
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.result-box {
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+}
+
+.result-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
