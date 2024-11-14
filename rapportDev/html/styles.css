@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    height: 35.6cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6em;
+
+}
+
+div.images img {
+    width: 20%;
+}
+
+div.images img:nth-child(2) {
+    margin-left: 20%;
+}
+
+h1 {
+    font-size: 3.8em;
+    text-align: center;
+}
+
+h1:nth-child(2) {
+    font-size: 3em;
+    text-align: center;
+}
+
+h2, span.question {
+    color: #229627;
+}
+
+h3 {
+    color: #b79510;
+}
+
+h4 {
+    color: #005082;
+}
+
+p {
+    text-align: justify;
+}
+
+span.question {
+    font-weight: bold;
+}
+
+ol {
+    counter-reset: idxTitre;
+}
+
+ol span {
+    color: black;
+    text-decoration: none;
+}
+
+ol span::before {
+    counter-increment: idxTitre;
+    content: counter(idxTitre) " - ";
+}
+
+ol.toc li {
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+ol.toc ol {
+    counter-reset: idxSousTitre;
+}
+
+ol.toc ol li {
+    font-weight: normal;
+}
+
+ol.toc ol li::before {
+    counter-increment: idxSousTitre;
+    content: counter(idxTitre) "." counter(idxSousTitre) " - ";
+}
+
+ol.sous{
+    counter-reset: idxSousSousTitre;
+}
+
+ol.sous li {
+    font-weight: normal;
+}
+
+ol.sous li::before {
+    counter-increment: idxSousSousTitre;
+    content: counter(idxTitre) "." counter(idxSousTitre) "." counter(idxSousSousTitre) " - ";
+}
+
+code {
+    font-family: 'Cascadia Code', sans-serif;
+    font-weight: bold;
+}
+
+.mcd {
+    width: 100%;
+}
+
+.rela {
+    text-align: center;
+}
+
+.keys {
+    list-style-type: disc;
+}
+
+.gra {
+    width: 100%;
+    height: 17em;
+    display: flex;
+    justify-content: center;
+}
+
+.gra img {
+    height: 100%;
+}
+
+.language-csv {
+    font-weight: initial;
+}
+
+.mcd {
+    border: black 1px solid;
+}
+
+span.methode {
+    font-weight: bold;
+    color: #005082;
+}
+
+span.attribut {
+    font-weight: bold;
+    color: #229627;
+}
+
+.new-rapport {
+    color: orange;
+    font-size: 30px;
+}

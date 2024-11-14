@@ -1,0 +1,10 @@
+L;Train;Avion;120;0.6;20
+L;Avion;Train;120;0.6;20
+J;Train;Avion;130;0.65;22
+J;Avion;Train;130;0.65;22
+K;Avion;Train;140;0.7;25
+K;Train;Avion;140;0.7;25
+I;Train;Avion;160;0.8;30
+I;Avion;Train;160;0.8;30
+E;Train;Avion;170;0.85;32
+E;Avion;Train;170;0.85;32
